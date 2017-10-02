@@ -1,0 +1,279 @@
+@import "../../vars"
+//HEADER STYLE START
+.header
+  background-image: url(../../assets/header-bkg.jpg)
+  background-size: cover
+  padding: 35px 0
+  p
+    padding-left: 145px
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    color: white
+    margin: 25px 0
+    &:first-child
+      font-size: 50px
+      font-family: $font-light
+      span
+        font-family: $font-bold
+        font-size: 50px
+
+  button
+    margin-left: 145px
+    margin-top: 20px
+    padding:  15px 50px
+    font-size: 30px
+    border: none
+    border-radius: 5px
+    color: white
+    font-family: $font-bold
+    background-color: $accent-color
+    &:hover
+      background-color: #131313
+  ul
+    list-style: none
+    padding-left: 145px
+    margin-top: 20px
+    li
+      font-size: 50px
+      font-family: $font-light
+      color: white
+      span
+        font-family: $font-bold
+        color: $accent-color
+        margin-right: 5px
+
+//HEADER STYLE END
+
+//SPEAKER STYLE START
+.title
+  font-size: 50px
+  color: $accent-color
+  font-family: $font-bold
+.speakers
+  padding: 30px 30px
+  button
+    margin-left: 145px
+    margin-top: 75px
+    padding:  15px 50px
+    font-size: 30px
+    border: none
+    border-radius: 5px
+    color: white
+    font-family: $font-bold
+    background-color: $accent-color
+    &:hover
+      background-color: #131313
+  p
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    &:last-child
+      font-size: 30px
+    &:nth-child(2)
+      font-size: 30px
+      text-transform: uppercase
+      font-family: $font-book
+      margin-bottom: 20px
+      span
+        font-family: $font-bold
+        color: $accent-color
+        font-size: 30px
+    &:last-child
+      span
+        color: $accent-color
+        font-size: 30px
+//SPEAKER STYLE END
+
+//ATTEND STYLE START
+.attend
+  background-color: #EDEDEE
+  padding: 30px 30px
+  p
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    margin-bottom: 5px
+//ATTEND  STYLE END
+
+//ATTEND-RATE STYLE START
+.attend-rate
+  background-color: $accent-color
+  padding: 30px 40px
+  span
+    font-size: 50px
+    color: white
+    font-family: $font-bold
+  .rate-block
+    background-color: white
+    padding: 30px 0
+    .regular
+      text-align: center
+      button
+        font-size: 30px
+        border: none
+        border-radius: 5px
+        color: white
+        font-family: $font-bold
+        background-color: #666666
+        width: 100%
+        margin-top: 15px
+        padding: 11px 0
+        &:hover
+          background-color: #131313
+      ul
+        list-style: none
+        padding-left: 0
+        li
+          font-family: Helvetica, Arial, sans-serif
+          font-size: 16px
+          border: 1px solid #F1F1F1
+          margin: 5px 0
+          padding: 20px 5px
+          &:first-child
+            border: none
+            background-color: #EDEDEE
+            font-family: $font-book
+            font-size: 30px
+            margin-bottom: 15px
+          &:nth-child(2)
+            font-size: 40px
+            font-family: $font-book
+    .early
+      text-align: center
+      button
+        font-size: 30px
+        border: none
+        border-radius: 5px
+        color: white
+        font-family: $font-bold
+        background-color: $accent-color
+        width: 100%
+        margin-top: 15px
+        padding: 11px 0
+        &:hover
+          background-color: #131313
+      ul
+        list-style: none
+        padding-left: 0
+        li
+          font-family: Helvetica, Arial, sans-serif
+          font-size: 16px
+          border: 1px solid #F1F1F1
+          margin: 5px 0
+          padding: 20px 5px
+          &:first-child
+            border: none
+            background-color: $accent-color
+            color: white
+            font-family: $font-bold
+            font-size: 30px
+            margin-bottom: 15px
+          &:nth-child(2)
+            color: $accent-color
+            font-size: 40px
+            font-family: $font-bold
+
+
+//ATTEND-RATE STYLE END
+
+//LOCATION STYLE START
+.location
+  padding: 30px 30px
+  background-color: #EDEDEE
+  p
+    font-size: 30px
+    text-transform: uppercase
+    font-family: $font-book
+  span
+    &:not(:nth-child(1))
+      display: block
+      font-family: Helvetica, Arial, sans-serif
+      font-size: 16px
+    &:nth-child(5)
+      font-weight: bold
+  .dinner-room
+    background-image: url(../../assets/dinner.jpg)
+    background-size: cover
+    height: 300px
+    margin-top: 20px
+//LOCATION STYLE END
+
+.photo
+  height: 450px
+  background-image: url(../../assets/photo.jpg)
+  background-size: cover
+  background-position: bottom
+
+//TRAVEL STYLE START
+.travel
+  padding: 30px
+  p
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    line-height: 1.5
+//TRAVEL STYLE END
+
+@media (max-width: 992px)
+  .map
+    margin-top: 20px
+  .header
+    background-image: url(../../assets/header-bkg.jpg)
+    background-size: cover
+    padding: 35px 20px
+    text-align: center
+    p
+      padding-left: 0
+      font-size: 15px
+      &:first-child
+        font-size: 30px
+        font-family: $font-light
+        span
+          font-family: $font-bold
+          font-size: 30px
+    button
+      margin-left: 0
+    ul
+      padding-left: 0
+
+  .title
+    font-size: 50px
+    color: $accent-color
+    font-family: $font-bold
+  .speakers
+    padding: 30px 30px
+    text-align: center
+    button
+      margin-left: 0
+      margin-top: 15px
+      padding:  15px 50px
+      font-size: 30px
+    p
+      font-family: Helvetica, Arial, sans-serif
+      font-size: 16px
+      &:last-child
+        font-size: 30px
+      &:nth-child(2)
+        font-size: 20px
+        margin-bottom: 20px
+        span
+          font-size: 20px
+      &:last-child
+        span
+          font-size: 30px
+
+  .attend
+    text-align: center
+    padding: 30px 30px
+  p
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    margin-bottom: 5px
+
+  .rate-block
+    background-color: white
+    padding: 30px 0
+    .regular
+      margin-top: 35px
+
+  .location
+    text-align: center
+  .travel
+    text-align: center

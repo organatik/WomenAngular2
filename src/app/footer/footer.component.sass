@@ -1,0 +1,104 @@
+@import "../../vars"
+.footer
+  padding: 20px 30px
+  background-color: $accent-color
+  p
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px
+    line-height: 1.5
+    color: white
+    padding-left: 15px
+    span
+      &:first-child
+        font-size: 50px
+        font-family: $font-bold
+      &:nth-child(2)
+        font-size: 50px
+        font-family: $font-book
+  .round-logo
+    background-image: url(../../assets/roundlogo.png)
+    height: 150px
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+  .contacts
+    span
+      display: block
+      color: white
+      margin: 5px 0
+      font-family: Helvetica, Arial, sans-serif
+      font-size: 16px
+      font-weight: lighter
+      &:nth-child(4)
+        margin-top: 25px
+      a
+        color: white
+    p
+      padding-left: 0
+      margin-bottom: 0
+      span
+          &:first-child
+            font-size: 50px
+            font-family: $font-bold
+            display: inline
+          &:nth-child(2)
+            font-size: 50px
+            font-family: $font-book
+            display: inline
+
+#mf_placeholder
+  p
+    span
+      &:first-child
+        font-size: 50px
+        font-family: $font-bold
+      &:nth-child(2)
+        font-size: 50px
+        font-family: $font-book
+
+.footer-bot
+  background-color: black
+  padding: 20px 30px
+  color: white
+  font-family: Helvetica, Arial, sans-serif
+  font-size: 16px
+  p
+    margin-bottom: 0
+@media (max-width: 1300px)
+  .contacts
+    margin-left: 4.333333%!important
+    width: 20.666667%!important
+
+
+@media (max-width: 1024px)
+  .logo-text
+    text-align: center
+  .contacts
+    text-align: center
+    p
+      span
+        &:first-child
+          font-size: 30px!important
+          font-family: $font-bold
+          display: inline
+        &:nth-child(2)
+          font-size: 30px!important
+          font-family: $font-book
+          display: inline
+  #li_1
+    text-align: center
+  #mf_placeholder
+    iframe
+      padding-left: 10%
+    text-align: center
+    p
+      span
+        &:first-child
+          font-size: 30px
+          font-family: $font-bold
+        &:nth-child(2)
+          font-size: 30px
+          font-family: $font-book
+
+  .footer-bot
+    text-align: center
