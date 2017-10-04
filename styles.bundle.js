@@ -1,5 +1,26 @@
 webpackJsonp([2],{
 
+/***/ "../../../../../src/assets/fonts/BebasNeue Bold.otf":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "BebasNeue Bold.524d720f3f670bd38785.otf";
+
+/***/ }),
+
+/***/ "../../../../../src/assets/fonts/BebasNeue Book.otf":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "BebasNeue Book.0b9bf3dbd0b7002c72c4.otf";
+
+/***/ }),
+
+/***/ "../../../../../src/assets/fonts/BebasNeue Light.otf":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "BebasNeue Light.4c8d42e69711e4e230d9.otf";
+
+/***/ }),
+
 /***/ "../../../../../src/assets/fonts/bebasneue_bold-webfont.woff":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -154,7 +175,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbutton {\n  outline: none; }\n\n@font-face {\n  font-family: \"Bebas L\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_light-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_light-webfont.woff2") + ") format(\"woff2\"); }\n\n@font-face {\n  font-family: \"Bebas Bl\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_bold-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_bold-webfont.woff2") + ") format(\"woff2\"); }\n\n@font-face {\n  font-family: \"Bebas Bk\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_book-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_book-webfont.woff2") + ") format(\"woff2\"); }\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbutton {\n  outline: none; }\n\n@font-face {\n  font-family: \"Bebas L\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_light-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_light-webfont.woff2") + ") format(\"woff2\"), url(\"" + __webpack_require__("../../../../../src/assets/fonts/BebasNeue Light.otf") + "\") format(\"otf\"); }\n\n@font-face {\n  font-family: \"Bebas Bl\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_bold-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_bold-webfont.woff2") + ") format(\"woff2\"), url(\"" + __webpack_require__("../../../../../src/assets/fonts/BebasNeue Bold.otf") + "\") format(\"otf\"); }\n\n@font-face {\n  font-family: \"Bebas Bk\";\n  src: url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_book-webfont.woff") + ") format(\"woff\"), url(" + __webpack_require__("../../../../../src/assets/fonts/bebasneue_book-webfont.woff2") + ") format(\"woff2\"), url(\"" + __webpack_require__("../../../../../src/assets/fonts/BebasNeue Book.otf") + "\") format(\"otf\"); }\n", ""]);
 
 // exports
 
